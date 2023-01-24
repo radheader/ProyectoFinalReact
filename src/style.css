@@ -28,8 +28,20 @@ header .containerItemList{
     border: 1px solid black;
     width: 60%;
     height: 100%;
+    display: flex;
 }
 
+header .containerItemList ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header .containerItemList ul li{
+    margin: 30px;
+    border: 1px solid black;
+}
 /*containerCart */
 
 header .containerCart{
