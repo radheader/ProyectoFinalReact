@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cardItem{
+    border: 1px solid red;
+    height: 460px;
+    width: 290px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/* imagen*/
+
+.cardItem .cardImg{
+    border: 1px solid green;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.cardItem .cardImg img{
+    width: 100px;
+}
+
+/* descripcion*/
+
+.cardDescription{
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    height: 35%;
+    padding: 5px;
+}
+
+.cardDescription .title{
+    font-size: 21px;
+    margin: 6px
+}
+.cardDescription .description{
+    display: none;
+}
+
+.cardDescription .cant{
+    color: black;
+    font-size: 15px;
+}
+
+.cardDescription .precio{
+    color: #5b00fb;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 6px;
+}
+
+/*contenedor de botones*/
+
+.buttons{
+    border: 1px solid black;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons #detalles{
+    height: 55%;    
+    width: 78%;
+    border-radius: 50px;
+    background-color: #5b00fb;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+.buttons #detalles:hover{
+    background-color: #4c00d1;
+}
+
+.buttons #addCart{
+    background-color: #5b00fb;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons #addCart img{
+    transform: scale(.7);
+}
+
+.buttons #detalles:hover, .buttons #addCart:hover{
+    background-color: #4c00d1;
+}

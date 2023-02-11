@@ -16,7 +16,6 @@ const Navbar = () => {
                     itemTres = "Te"
                     itemCuatro = "Cafe"
                     itemCinco = "Miel"
-                    itemSeis = "Spaguetti"
                 />
             </nav>
 
