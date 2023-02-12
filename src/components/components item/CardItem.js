@@ -5,16 +5,16 @@ import ButtonDetalles from "./ButtonDetalles";
 import ButtonAddCart from "./ButtonAddCart";
 import prueba from "../../img/sulpayki_icon.jpg"
 
-const CardItem=() => {
+const CardItem=(props) => {
     return(
         <div className="cardItem">
             <Image 
-                imagen={prueba}
+                imagen={props.imagen}
                 />
             <Description 
-                title="Paquete de sal de Maras del valle Sagrado"
-                cantidad={5}
-                precio={10}
+                title={props.title}
+                cantidad={props.cantidad}
+                precio={props.precio}
                 />
             <div className="buttons">
                 <ButtonDetalles />

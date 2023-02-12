@@ -1,7 +1,7 @@
 const Image = (props) =>{
     return(
         <div className="cardImg">
-            <img scr={props.imagen}></img>
+            <img src={props.imagen} alt="imagen"></img>
         </div>
 
     )

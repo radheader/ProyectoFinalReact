@@ -19,14 +19,14 @@
 /* imagen*/
 
 .cardItem .cardImg{
-    border: 1px solid green;
-    height: 50px;
+    height: 50%;
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 
-.cardItem .cardImg img{
-    width: 100px;
+.cardItem .cardImg img {
+    transform: scale(0.65);
 }
 
 /* descripcion*/
@@ -95,7 +95,7 @@
 }
 
 .buttons #addCart img{
-    transform: scale(.7);
+    transform: scale(.65);
 }
 
 .buttons #detalles:hover, .buttons #addCart:hover{
