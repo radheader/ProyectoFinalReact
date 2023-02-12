@@ -4,10 +4,11 @@ import Description from "./Description";
 import ButtonDetalles from "./ButtonDetalles";
 import ButtonAddCart from "./ButtonAddCart";
 import prueba from "../../img/sulpayki_icon.jpg"
+import "../../styles/containerCardItems.css"
 
 const CardItem=(props) => {
     return(
-        <div className="cardItem">
+        <div className="cardItem.css">
             <Image 
                 imagen={props.imagen}
                 />

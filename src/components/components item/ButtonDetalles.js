@@ -1,8 +1,9 @@
-
 const ButtonDetalles = () => {
     return(
-        <button id="detalles">Ver detalles</button>
+        <button id="detalles" 
+        > Ver detalles
+        </button>
     )
 }
 
-export default ButtonDetalles;
+export default ButtonDetalles

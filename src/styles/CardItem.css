@@ -26,7 +26,7 @@
 }
 
 .cardItem .cardImg img {
-    height: 100%;
+    transform: scale(.65);
 }
 
 /* descripcion*/
@@ -35,7 +35,6 @@
     display: flex;
     flex-direction: column;
     height: 35%;
-    padding: 5px;
 }
 
 .cardDescription .title{
@@ -49,6 +48,7 @@
 .cardDescription .cant{
     color: black;
     font-size: 15px;
+    margin: 6px
 }
 
 .cardDescription .precio{

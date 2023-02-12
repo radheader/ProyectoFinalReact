@@ -32,6 +32,7 @@ header .containerItemList{
 }
 
 header .containerItemList ul{
+
     list-style: none;
     display: flex;
     justify-content: flex-end;
@@ -39,8 +40,10 @@ header .containerItemList ul{
 }
 
 header .containerItemList ul li{
-    margin: 30px;
+    text-decoration: none;
+    margin: 0 0 0 50px;
     cursor: pointer;
+    color: var(--color-txt-nav)
     
 }
 /*containerCart */
