@@ -3,12 +3,12 @@ import "../../styles/CardItem.css"
 import Description from "./Description";
 import ButtonDetalles from "./ButtonDetalles";
 import ButtonAddCart from "./ButtonAddCart";
-import prueba from "../../img/sulpayki_icon.jpg"
+import { Link } from "react-router-dom"
 import "../../styles/containerCardItems.css"
 
 const CardItem=(props) => {
     return(
-        <div className="cardItem.css">
+        <div className="cardItem">
             <Image 
                 imagen={props.imagen}
                 />
@@ -18,7 +18,13 @@ const CardItem=(props) => {
                 precio={props.precio}
                 />
             <div className="buttons">
-                <ButtonDetalles />
+
+                <Link to={ `/item/${props.id}` }>
+                    <ButtonDetalles 
+                        txt="Ver detalles" 
+                    />
+                </Link>
+                
                 <ButtonAddCart />
             </div>
 

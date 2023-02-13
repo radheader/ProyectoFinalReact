@@ -22,11 +22,12 @@ const ContainerCardItems = () => {
     },[idCategory])
        
     return(
-        <div className="containercardItems">
+        <div className="containerCardItems">
             {
                 datos.map( product => (
-                    <CardItem 
+                    <CardItem
                         key={product.id}
+                        id={product.id} 
                         title={product.title}
                         imagen={product.imageProduct.firtsImage}
                         cantidad={product.stock}
