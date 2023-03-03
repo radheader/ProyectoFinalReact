@@ -1,6 +1,7 @@
 import Brand from "./Brand";
 import ItemListContainer from "./ItemsListContainer";
 import CartWidget from "./CartWidget";
+import ContainerCart from "./ContainerCart";
 
 const Navbar = () => {
     return(
@@ -22,6 +23,9 @@ const Navbar = () => {
             <div className="containerCart">
                  <CartWidget />
             </div>
+
+            <ContainerCart/>
+            
         </header>
     )
 }
